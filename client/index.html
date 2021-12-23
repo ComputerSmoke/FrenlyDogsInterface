@@ -19,16 +19,31 @@
         <li><a href="/faq/">FAQ</a></li>
       </ul>
     </div>
-    <div id="prepare" class="container">
-      <button class="btn btn-primary" id="btn-connect">
-        Connect wallet
-      </button>
-    </div>
+      <div class="container">
+        <div id="prepare">
+          
+          <button class="btn btn-primary" id="btn-connect">
+            Connect wallet
+          </button>
 
-    <div id="connected" style="display: none" class="container2">
-      <button class="btn btn-primary" id="btn-buy">
-        Buy
-      </button>
+        </div>
+
+        <div id="connected" style="display: none" class="container2">
+
+          <button class="btn btn-primary" id="btn-buy">
+            Buy
+          </button>
+        
+        </div>
+      </div>
+
+    <div id="templates" style="display: none">
+      <template id="template-balance">
+        <tr>
+          <th class="address"></th>
+          <td class="balance"></td>
+        </tr>
+      </template>
     </div>
 
     <script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>

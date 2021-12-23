@@ -1,5 +1,5 @@
 body {
-    background-color: #6b8ac448;
+    background-image: url(../media/fndback.jpg);
 }
 .nav{
     position: fixed;
@@ -38,7 +38,7 @@ div.container {
 }
 
 div.container2 {
-    height: 600px;
+    top: 60%;
     position: relative;
     background:transparent;
 }
