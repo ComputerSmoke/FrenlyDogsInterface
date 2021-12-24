@@ -1,5 +1,5 @@
 body {
-    background-image: url(./media/tile.png);
+    background-image: url(./client/media/tile.png);
 }
 .nav{
     position: fixed;
