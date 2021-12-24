@@ -1,5 +1,5 @@
 body {
-    background-image: url(./client/media/tile.png);
+    background-image: url(./media/tile.png);
 }
 .nav{
     position: fixed;
@@ -48,7 +48,7 @@ div.container2 {
     width: 150px;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
@@ -92,3 +92,11 @@ div.container4 h1{
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
+img.logo {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
