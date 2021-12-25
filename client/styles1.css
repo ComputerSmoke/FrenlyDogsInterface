@@ -46,12 +46,37 @@ div.container2 {
     background:transparent;
 }
 
-.btn-primary {
+.connectbutton {
     height: 50px;
     width: 150px;
     margin: 0;
     position: absolute;
     top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    font-family: Orbitron;
+    letter-spacing: 1px;
+    border: 0;
+    outline: 0;
+    min-width: 32px;
+    align-self: center;
+    display: flex;
+    padding: 6px;
+    font-size: 11px;
+    line-height: 11px;
+    align-items: center;
+    justify-content: center;
+    background: #cac6cb;
+    box-shadow: inset -1px -1px 0 0 #464147, inset 1px 1px 0 0 #fff, inset -2px -2px 0 0 #a099a1, inset 2px 2px 0 0 #dedcde;
+}
+
+.buybutton {
+    height: 50px;
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 30%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
@@ -183,4 +208,14 @@ div.container7 {
 .ans {
     color: #3a3a3a;
     padding-bottom: 50px;
+}
+
+img.pillar1 {
+    position: absolute;
+    right: 65%;
+}
+
+img.pillar2 {
+    position: absolute;
+    left: 65%;
 }
