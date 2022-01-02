@@ -1,6 +1,6 @@
-const nftAddress = "0x2b291fC4DdDDA011cBfd3767f203CfE41Fe8B11d";
-const tokenAddress = "0x0F62CeB23b125724285509Ef1e460Bc4EcADc0d4";
-const mintCost = "6905000000000000000000";
+const nftAddress = "";
+const tokenAddress = "";
+const mintCost = "13810000000000000000000";
 
 const nftAbi = [
     {
