@@ -11,27 +11,28 @@
       @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
     </style>
   </head>
-  <body>
-    <div>
+  <body id="home">
+    <div class="container0">
       <ul class="nav">
-        <li><a href="/about/">About</a></li>
-        <li><a href="/fnd/">FND</a></li>
-        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="home" href="#home">HOME</a></li>
+        <li><a href="#faq">FAQ</a></li>
       </ul>
-      <img class="logo" src="https://media3.giphy.com/media/QUvFyhoSsrFVX1xjSS/giphy.gif?cid=790b76118793a95df0ed4f4188f27224e7c7e389865b6bd2&rid=giphy.gif&ct=s" alt="Frenly Dogs Logo" width="300px" height="300px">
+      <img class="logo" src="https://media3.giphy.com/media/QUvFyhoSsrFVX1xjSS/giphy.gif?cid=790b76118793a95df0ed4f4188f27224e7c7e389865b6bd2&rid=giphy.gif&ct=s" alt="Frenly Dogs Logo" width="400px" height="400px">
     </div>
     <div class="container">
       <div id="prepare">
           
-        <button class="btn btn-primary" id="btn-connect">
+        <button class="btn btn-primary connectbutton" id="btn-connect">
           Connect wallet
         </button>
-
+        <img class="pillar1" src="https://gateway.pinata.cloud/ipfs/QmUVa3JKm9nRYs8xrKfWZsYit17yUVnAdTNTPnmbSfSbao?preview=1">
+        <img class="pillar2" src="https://gateway.pinata.cloud/ipfs/QmYgjUU1nJ1fN1sZFK9wnsJ9v8AFzXZSt5d5nTeGiD2923?preview=1">
       </div>
 
       <div id="connected" style="display: none" class="container2">
 
-        <button class="btn btn-primary" id="btn-buy">
+        <button class="btn btn-primary buybutton" id="btn-buy">
           Buy
         </button>
         
@@ -46,7 +47,7 @@
         </tr>
       </template>
     </div>
-    <div class="container4">
+    <div id="about" class="container4">
       <h1>
         About
       </h1>
@@ -54,10 +55,43 @@
     <div class="container3">
       <p>
         Frenly Dogs is an emotive 100-item pixel-art set which depicts our beloved Doge
-        in various getups and backdrops. The emphasis is on simplicity as a mode of expression. 
-        Pixel art as a whole aims to use as little space to tell
-        the biggest possible story. Such was our aim in making your Frenly Dog!
+        in various getups and backdrops. Mint cost is 6905 DOG, and you must be whitelisted 
+        to participate. Get your whitelist spot at the <a href="https://google.com">Doge NFT Layer3 page</a>.
       </p>
+    </div>
+    <div class="container5">
+      <img class="sample1" src="https://media0.giphy.com/media/xlfDj9PBN2c67b6VZb/giphy.gif" alt="Frenly Dogs Sample 1" width="307.5px" height="262.5px">
+      <img class="sample2" src="https://media4.giphy.com/media/NuvDZolYPjMlb2IKEO/giphy.gif" alt="Frenly Dogs Sample 2" width="307.5px" height="262.5px">
+    </div>
+    <div class="container6">
+      <h2>
+        Rarities and Traits
+      </h2>
+      <ul class="rarities">
+        <li>Sunshades: 25%</li>
+        <li>Cigarette: 15%</li>
+        <li>Collar: 10%</li>
+        <li>Special Background: 4%</li>
+        <li>Special Item: 3%</li>
+      </ul>
+    </div>
+    <div id="faq" class="container7">
+      <h2>
+        FAQ
+      </h2>
+      <ul class="questions">
+        <li class="qtn">Are there royalties or sale fees?</li>
+        <li class="ans">No. If you choose to sell your Frenly Dog, you will keep 100% of the proceeds!</li>
+        <li class="qtn">Can I purchase my FND with ETH or another ERC-20?</li>
+        <li class="ans">No-- Frenly Dogs are only available for $DOG holders. 
+          If you don't have any, but would still like to buy an FND, you must first buy $DOG. We apologize for any 
+          inconvenience!</li>
+        <li class="qtn">Will there ever be more than 100 pieces minted? What does the future look like?</li>
+        <li class="ans">This is it. Future development will seek to add value to the original 100, and integrate 
+          them into other <a href="https://ownthedogenft.com/">Doge NFT</a> projects.</li>
+        <li class="qtn">Are FND's copyrighted? / Are there restrictions on how I can use my dog?</li>
+        <li class="ans">You are free to use your dog in any fashion you please. It's yours for life! Take care of it :)</li>
+      </ul>
     </div>
     <script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
