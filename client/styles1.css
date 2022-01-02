@@ -218,6 +218,8 @@ a.home {
     div.container6 ul{
         font-size: 22px;
         text-align: center;
+        justify-content: center;
+        padding-inline-start: 0px !important; 
     }
 
     div.container7 {
@@ -234,9 +236,10 @@ a.home {
     }
 
     div.container7 ul {
-        justify-content: center;
-        font-size: 22;
+        font-size: 22px;
         text-align: center;
+        list-style-position: inside;
+        padding-inline-start: 0px !important; 
     }
 
     div.container7 h2{
@@ -244,6 +247,10 @@ a.home {
         -webkit-text-stroke-color: rgb(0, 0, 0);
         justify-content: center;
         font-size: 30px;
+    }
+
+    div.container7 ul li{
+        text-align: center;
     }
 
   }
@@ -433,3 +440,4 @@ a.home {
     }
 
   }
+
