@@ -18,7 +18,7 @@ app.get('/',async function (req, res) {
 });
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use('/client',express.static(__dirname + '/client'));
+app.use('/',express.static(__dirname + '/client'));
 app.use(limiter);
 app.use(helmet({
     contentSecurityPolicy: false
